@@ -1,0 +1,142 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+p {
+  line-height: 1.55;
+  color: #333;
+  font-size: 400;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 62px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 65px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+a {
+  transition: 0.5s;
+  text-decoration: none;
+  color: #199EB8;
+}
+
+a:hover {
+  color: #23c2e1;
+}
+
+.section-title h2{
+  position: relative;
+  text-align: center;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 240px;
+  height: 3px;
+  background: #ddd;
+  bottom: -10px;
+  left: calc(50% - 120px);
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #00c1c1;
+  bottom: -10px;
+  left: calc(50% - 60px);
+}
+
+
+/* ==================================================
+  Elements
+  ================================================== */
+.btn {
+  background-color: #199EB8;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #007aff;
+  color: #fff;
+}
+
+.btn:focus {
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 3px solid #fff;
+  background-color: transparent;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  color: #199EB8;
+}
+
+section {
+  padding: 85px 0;
+}
+
+.card {
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+/* ==================================================
+  Welcome Styling
+  ================================================== */
+.welcome {
+  overflow: hidden;
+  padding-top: 85px;
+  background: url("/assets/img/parallax-bg.jpg") center top;
+}
+
+
+
+
+
+

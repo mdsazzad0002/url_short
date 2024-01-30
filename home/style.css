@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/image/breadcumb.jpg') fixed top left;
+    min-height: 100vh;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+
+.container .image {
+    max-width: 450px;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container image img {
+    width: 100%;
+    height: 100%;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    color: #6b6b6b;
+
+}
+
+.container .content {
+    /* background: url('/image/d.svg') fixed center center; */
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container form .input-group {
+    display: flex;
+    position: relative;
+    /* gap: 8px; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 7px;
+
+}
+
+.container .input-group input {
+    width: 100%;
+    padding: 8px 8px 8px 50px;
+    /* border-radius: 5px; */
+    border: 1px solid #b3abab;
+    font-size: 18px;
+    display: inline-block;
+
+}
+
+.container .input-group #short {
+    padding: 8px 100px 8px 150px;
+}
+
+.container .input-group label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6b6b6b;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    /* border-radius: 5px 0 0 5px; */
+}
+
+
+
+
+.container .input-group button[type='submit'] {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    background: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media (max-width:768px) {
+    .container form .input-group.short_link_inbox {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        margin-bottom: -15px;
+
+    }
+
+    .container form .short_link_inbox input#short {
+        position: relative;
+        padding: 10px 15px;
+        margin-top: -15px;
+    }
+
+    .container form .short_link_inbox label {
+        width: 100%;
+        position: unset;
+        padding: 10px 15px;
+        margin-top: 30px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .container form .short_link_inbox button[type='submit'] {
+        position: unset;
+        margin-top: 30px;
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+    }
+}
+
+.status {
+    font-size: 18px;
+}
+
+.status p,
+.created p {
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.bg-success {
+    background: #000;
+}
+
+.bg-danger {
+    background: #6b6b6b;
+}
+
+.text-light {
+    color: #eee;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.p-2 {
+    padding: 5px;
+}

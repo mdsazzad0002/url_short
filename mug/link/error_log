@@ -1,0 +1,9 @@
+[11-Jul-2023 12:39:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ttcmpw_ttcmpw'@'localhost' (using password: YES) in /home/ttcmpw/public_html/short.ttcm.pw/conection/index.php on line 7
+[11-Jul-2023 12:39:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/ttcmpw/public_html/short.ttcm.pw/mug/link/link_insert.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ttcmpw/public_html/short.ttcm.pw/mug/link/link_insert.php on line 7
+[14-Jul-2023 17:49:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/ttcmpw/public_html/short.ttcm.pw/mug/link/exist_link.php on line 7
+[20-Sep-2023 16:06:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/ttcmpw/public_html/short.ttcm.pw/mug/link/exist_link.php on line 7
+[20-Sep-2023 16:06:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/ttcmpw/public_html/short.ttcm.pw/mug/link/exist_link.php on line 7
+[20-Sep-2023 16:06:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/ttcmpw/public_html/short.ttcm.pw/mug/link/exist_link.php on line 7
